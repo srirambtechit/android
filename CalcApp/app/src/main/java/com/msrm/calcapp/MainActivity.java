@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        // closing this activity and informs the OS that whoever called this activity
         closeButton.setOnClickListener(v -> {
             finish();
         });
