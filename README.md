@@ -13,12 +13,14 @@ download usb_driver, adb fastboot files, os package, goolge apps package, superu
   make sure OS detects your mobile in device manager
 
 ### unlock bootloader
+<pre>
   have to find approach in google for specific mobile model
   open cmd
   go to adb folder in cmd
+</pre>
   __$ fastboot oem device-info__
-    ...
-    (bootloader)    Device tampered: false
+    '''...
+    ''(bootloader)    Device tampered: false
     (bootloader)    Device unlocked: true
     (bootloader)    Charger screen enabled: true
     (bootloader)    Display panel:
