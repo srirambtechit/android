@@ -19,8 +19,8 @@
 ### unlock bootloader
 - have to find approach in google for specific mobile model
 - open cmd
-- go to adb folder in cmd
-  __$ fastboot oem device-info__
+- go to adb folder in cmd  
+  __$ fastboot oem device-info__  
     ...  
     (bootloader)    Device tampered: false  
     (bootloader)    Device unlocked: true  
@@ -31,8 +31,8 @@
 - from the above output, you can find bootloader unlocked is true
 
 ### flashing phone
- - open cmd
- - go to adb folder in cmd
+ - open cmd  
+ - go to adb folder in cmd  
   __$ adb devices__  
     List of devices attached  
     50dcbb38        device  
