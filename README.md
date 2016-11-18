@@ -43,10 +43,10 @@
   __$ fastboot flash recovery twrp-3.0.2-2-kenzo.img__
    - loads the recovery image into mobile
 
-  __$ fastboot boot twrp-3.0.2-2-kenzo.img__
-    downloading 'boot.img'...
-    OKAY [  1.318s]
-    booting...
-    OKAY [  0.505s]
-    finished. total time: 1.829s
+  __$ fastboot boot twrp-3.0.2-2-kenzo.img__  
+    downloading 'boot.img'...  
+    OKAY [  1.318s]  
+    booting...  
+    OKAY [  0.505s]  
+    finished. total time: 1.829s  
 
