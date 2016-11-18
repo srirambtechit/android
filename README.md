@@ -31,18 +31,17 @@
 - from the above output, you can find bootloader unlocked is true
 
 ### flashing phone
-<pre>
  - open cmd
  - go to adb folder in cmd
-  __$ adb devices__
-    List of devices attached
-    50dcbb38        device
+  __$ adb devices__  
+    List of devices attached  
+    50dcbb38        device  
 
-  __$ adb reboot bootloader__
-   - it restarts the phone and display fastboot mode in mobile.
+  __$ adb reboot bootloader__  
+  - it restarts the phone and display fastboot mode in mobile.
 
   __$ fastboot flash recovery twrp-3.0.2-2-kenzo.img__
-    - loads the recovery image into mobile
+   - loads the recovery image into mobile
 
   __$ fastboot boot twrp-3.0.2-2-kenzo.img__
     downloading 'boot.img'...
@@ -50,4 +49,4 @@
     booting...
     OKAY [  0.505s]
     finished. total time: 1.829s
-</pre>
+
